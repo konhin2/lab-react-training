@@ -130,3 +130,36 @@ code {
   -webkit-align-items: center;
           align-items: center;
 }
+.form-control {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  outline: none;
+}
+.form-button {
+  border: none;
+  color: white;
+  background-color: rgb(65, 153, 220);
+  padding: 10px 20px;
+  font-size: 1.2em;
+  display: block;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.color-picker {
+  width: 100px;
+  height: 100px;
+  background-color: gainsboro;
+  border: 4px solid black;
+}
+.singlecolor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.singlecolor > div > span {
+  margin-left: 1em;
+}

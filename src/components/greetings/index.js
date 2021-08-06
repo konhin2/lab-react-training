@@ -21,8 +21,11 @@ export default function index(props) {
     }
     
     return (
-        <div className='box'>
-            {greetings(props.lang)} {props.children}
-        </div>
+        // <div className='box'>
+        //     {greetings(props.lang)} {props.children}
+        // </div>
+        <>
+            {greetings(props.lang)}
+        </>
     )
 }
